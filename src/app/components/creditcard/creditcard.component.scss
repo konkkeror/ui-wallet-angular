@@ -1,0 +1,70 @@
+.tarjeta {
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.7px);
+  -webkit-backdrop-filter: blur(8.7px);
+  // border: 1px solid rgba(255, 255, 255, 0.23);
+  padding: 30px 15px;
+}
+
+.fondo {
+  background-image: url('../../../assets/img/bg.jpg');
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 20px;
+}
+
+.contenedor {
+  position: relative;
+}
+
+.marca {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.marca fa-icon {
+  font-size: 1.4rem;
+  margin-right: 5px;
+}
+
+.balance {
+  margin: 20px 0;
+}
+
+.balance .titulo {
+  font-size: .8rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.balance .monto {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.balance .monto span{
+  font-size: 1rem;
+}
+
+.parametros {
+  display: flex;
+  justify-content: space-between;
+}
+
+.parametros .titulo {
+  font-size: .8rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.parametros .valor {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
