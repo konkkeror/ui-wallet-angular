@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CreditcardComponent } from './components/creditcard/creditcard.component';
+import { ServiceCategoryComponent } from './components/service-category/service-category.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    CreditcardComponent
+    CreditcardComponent,
+    ServiceCategoryComponent
   ],
   imports: [
     BrowserModule,
