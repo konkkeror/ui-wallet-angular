@@ -9,4 +9,17 @@ import { CategoriaTransaccion } from './model/interfaces';
 export class AppComponent {
   title = 'ui-wallet-angular';
   categoria:CategoriaTransaccion = {nombre:'Food', valor: 666, fechaUltimaTransaccion:'12/12/2022'};
+
+
+  getCategoriasTransacciones():Array<CategoriaTransaccion> {
+    return [
+      {
+        nombre: '',
+      }
+    ];
+  }
+
+  guardarCategoriaTransaccion(categoria:CategoriaTransaccion) {
+
+  }
 }
